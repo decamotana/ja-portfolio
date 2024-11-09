@@ -190,7 +190,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     align-items: center;
     justify-content: center;
     position:relative;
-    background:url(../images/about/welcome-banner.jpg)no-repeat;
+    /* background:url(../images/about/welcome-banner.jpg)no-repeat; */
+    background:url(../images/about/welcome-banner1.jpg)no-repeat;
     background-size:cover;
     background-position: center;
     height:890px;
@@ -283,7 +284,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 }
 .single-about-img img {
     max-width: 500px;
-    height: 468px;
+    /* height: 468px; */
 }
 .about-list-icon{
     display: flex;
@@ -782,7 +783,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 
 /*hm-foot-icon*/
 .hm-foot-icon {
-   
+    display: flex;
 }
 .hm-foot-icon ul li{float:left;}
 .hm-foot-icon ul li>a {
